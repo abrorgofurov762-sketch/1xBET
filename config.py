@@ -6,12 +6,12 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-BOT_TOKEN = os.getenv("BOT_TOKEN", "")
-ADMIN_CHAT_ID = int(os.getenv("ADMIN_CHAT_ID", "0"))
-ADMIN_IDS = [int(uid.strip()) for uid in os.getenv("ADMIN_IDS", "").split(",") if uid.strip()]
+BOT_TOKEN = os.getenv("BOT_TOKEN", "8866849877:AAEO_0Zgi7Wv9zLGHLhrBcFhZCn_FWUlu4Q")
+ADMIN_CHAT_ID = int(os.getenv("ADMIN_CHAT_ID", "1242592772"))
+ADMIN_IDS = [int(uid.strip()) for uid in os.getenv("ADMIN_IDS", "1242592772").split(",") if uid.strip()]
 DB_PATH = os.getenv("DB_PATH", "orders.db")
-DEFAULT_CARD_NUMBER = os.getenv("CARD_NUMBER", "Номер карты не задан.")
-ADMIN_CONTACTS = os.getenv("ADMIN_CONTACTS", "@admin")
+DEFAULT_CARD_NUMBER = os.getenv("CARD_NUMBER", "9860082520089739")
+ADMIN_CONTACTS = os.getenv("ADMIN_CONTACTS", "@realkass")
 WITHDRAW_VIDEO_FILE_ID = os.getenv("WITHDRAW_VIDEO_FILE_ID", "")
 
 # Канал для подписки (не обязательная)
