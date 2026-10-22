@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-BOT_TOKEN = os.getenv("BOT_TOKEN", "8866849877:AAEO_0Zgi7Wv9zLGHLhrBcFhZCn_FWUlu4Q")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "8866849877:AAGCru1pDKU-NRVR7JTXlpm_7RKbFK9PSec")
 ADMIN_CHAT_ID = int(os.getenv("ADMIN_CHAT_ID", "1242592772"))
 ADMIN_IDS = [int(uid.strip()) for uid in os.getenv("ADMIN_IDS", "1242592772").split(",") if uid.strip()]
 DB_PATH = os.getenv("DB_PATH", "orders.db")
